@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/header"
+    android:background="@drawable/header_background"
+    android:padding="36dp"
+    app:layout_constraintBaseline_toTopOf="parent"
+    tools:layout_editor_absoluteX="-42dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <TextView
+        android:id="@+id/jobfindertitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Job finder"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="5dp"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titledescription"
+        app:layout_constraintTop_toBottomOf="@+id/jobfindertitle"
+        android:text="An app that helps to find your career path"
+        android:layout_marginTop="1dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

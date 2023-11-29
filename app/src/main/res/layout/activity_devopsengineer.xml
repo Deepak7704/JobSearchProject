@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".devopsengineer">
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74dp"
+        android:layout_marginBottom="633dp"
+        android:text="Job description:DevOps Engineer"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="237dp"
+        android:text="Education: A bachelor's degree in computer science, information technology, or a related field is typically required. A master's degree or additional certifications in DevOps technologies are also preferred.
+
+Technical skills: DevOps engineers should have expertise in software development, deployment, and operations. They should be proficient in programming languages such as Python, Java, and Ruby. They should also have experience with automation tools like Jenkins, Ansible, and Chef. Knowledge of containerization technologies like Docker and Kubernetes is also important.
+
+Soft skills: DevOps engineers should have strong communication and collaboration skills to work effectively with developers, operations teams, and other stakeholders. They should be able to explain technical concepts to non-technical stakeholders and manage multiple projects simultaneously. They should also be able to adapt to changing technologies and have a problem-solving mindset.Certifications: DevOps engineers should have industry certifications such as AWS Certified DevOps Engineer, Google Cloud DevOps Engineer, or Microsoft Certified DevOps Engineer to demonstrate their expertise in DevOps technologies."
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="192dp"
+        android:text="Number of openings=6"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

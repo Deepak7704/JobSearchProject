@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".softwaredeveloper">
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="652dp"
+        android:text="Job description:Software Devloper"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="234dp"
+        android:text="Education: A bachelor's degree in computer science, software engineering, or a related field is typically required. Some employers may accept an associate's degree or coding bootcamp certification in lieu of a bachelor's degree.
+
+Technical skills: Software developers should be proficient in programming languages such as Java, Python, JavaScript, C++, or others depending on the role. They should also have knowledge of software development frameworks, databases, version control systems, and software development tools such as integrated development environments (IDEs).Experience: Employers typically look for software developers with 2-5 years of experience in software development. Experience in software development projects, coding, testing, and debugging is important.
+
+Continuous learning: Software development is a rapidly changing field, and software developers should be committed to ongoing learning and staying up-to-date with the latest developments in the industry."
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="173dp"
+        android:text="Number of job openings=5"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

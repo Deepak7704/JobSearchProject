@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".uxuidesigner">
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="61dp"
+        android:layout_marginBottom="646dp"
+        android:text="Job description:UX/UI Designer"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:layout_marginBottom="197dp"
+        android:text="Education: A bachelor's degree in graphic design, computer science, or a related field is typically required. Some employers may accept a degree in a related field or a design bootcamp certification.
+
+Technical skills: UX/UI designers should be proficient in design software such as Sketch, Adobe Creative Suite, Figma, and InVision. They should also have knowledge of user research methods, information architecture, and usability testing. Knowledge of web development technologies such as HTML, CSS, and JavaScript is also important.
+
+Soft skills: UX/UI designers should have strong communication skills to work with stakeholders, developers, and other team members. They should also have problem-solving skills, attention to detail, and the ability to work collaboratively in a team environment.
+
+Portfolio: UX/UI designers should have a portfolio of their work that showcases their design process, problem-solving abilities, and outcomes. The portfolio should demonstrate their ability to create visually appealing and intuitive designs that meet user needs and business objectives."
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="137dp"
+        android:text="Number of job openings=6"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

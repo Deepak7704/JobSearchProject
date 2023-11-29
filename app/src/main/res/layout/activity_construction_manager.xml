@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".construction_manager">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:layout_marginBottom="670dp"
+        android:text="Job description:Construction Manager"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="368dp"
+        android:text="
+
+Technical Skills: Interior architects must have strong technical skills and be proficient in computer-aided design (CAD) software and other design tools. They must also be knowledgeable about building codes and regulations, materials, and construction techniques.
+
+Communication Skills: Interior architects must be able to communicate effectively with clients, contractors, and other professionals. They must be able to listen to their clients' needs and preferences, and be able to convey design concepts and ideas in a clear and concise manner.
+
+Project Management: Interior architects must be able to manage projects effectively, from conception to completion. They must be able to set timelines, budgets, and priorities, and ensure that all tasks are completed on schedule.
+
+Attention to Detail: Interior architects must have a meticulous eye for detail and be able to ensure that all aspects of a project are executed to perfection, including materials, finishes, and lighting."
+        android:textStyle="bold"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="292dp"
+        android:text="Number of job openings=5"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

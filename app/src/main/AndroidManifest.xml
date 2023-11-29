@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/jobsearchapplogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Job_Search_Project"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".userdetails"
+            android:exported="false" />
+        <activity
+            android:name=".applybutton"
+            android:exported="false" />
+        <activity
+            android:name=".loginactivity"
+            android:exported="false" />
+        <activity android:name=".signup"></activity>
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".datascientist1"
+            android:exported="false" />
+        <activity
+            android:name=".softwaredeveloper"
+            android:exported="false" />
+        <activity
+            android:name=".devopsengineer"
+            android:exported="false" />
+        <activity
+            android:name=".uxuidesigner"
+            android:exported="false" />
+        <activity
+            android:name=".cloudarchitect"
+            android:exported="false" />
+        <activity
+            android:name=".teaching_assistant"
+            android:exported="false" />
+        <activity
+            android:name=".prof_ml"
+            android:exported="false" />
+        <activity
+            android:name=".assistant_prof_math"
+            android:exported="false" />
+        <activity
+            android:name=".assitatnt_prof_ds"
+            android:exported="false" />
+        <activity
+            android:name=".marketingmanager"
+            android:exported="false" />
+        <activity
+            android:name=".financialanalyst"
+            android:exported="false" />
+        <activity
+            android:name=".bussinessanalyst"
+            android:exported="false" />
+        <activity
+            android:name=".bussinessdescription"
+            android:exported="false" />
+        <activity
+            android:name=".architect"
+            android:exported="false" />
+        <activity
+            android:name=".construction_manager"
+            android:exported="false" />
+        <activity
+            android:name=".builinginscpector"
+            android:exported="false" />
+        <activity
+            android:name=".interiordesigner_architecture"
+            android:exported="false" />
+        <activity
+            android:name=".architecturedescription"
+            android:exported="false" />
+        <activity
+            android:name=".software"
+            android:exported="false" />
+        <activity
+            android:name=".teacher"
+            android:exported="false" />
+        <activity
+            android:name=".bussiness"
+            android:exported="false" />
+        <activity
+            android:name=".architecture"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

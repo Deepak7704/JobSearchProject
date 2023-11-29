@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cloudarchitect">
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="647dp"
+        android:text="Job description:Cloud Architect"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="306dp"
+        android:text="Education: A bachelor's degree in computer science, information technology, or a related field is typically required. A master's degree or additional certifications in cloud technologies are also preferred.
+
+Technical skills: Cloud architects should have expertise in cloud technologies such as Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), or other cloud providers. They should be familiar with cloud architecture, cloud infrastructure, automation tools, and networking principles. They should also have experience in cloud migration, cloud security, and cost optimization.
+
+Soft skills: Cloud architects should have strong communication and collaboration skills to work effectively with stakeholders, project teams, and vendors. They should be able to explain technical concepts to non-technical stakeholders, and manage and prioritize multiple projects simultaneously. They should also be able to adapt to changing technologies and have a problem-solving mindset."
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="250dp"
+        android:text="Number of job openings=7"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
